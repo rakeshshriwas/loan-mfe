@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   imports: [],
@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './loan.scss',
   templateUrl: './loan.html',
 })
-export class Loan {}
+export class Loan {  
+  protected readonly title = signal('loan-mfe');
+}
