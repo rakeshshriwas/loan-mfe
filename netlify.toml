@@ -1,5 +1,5 @@
 [[headers]]
-  for = "/remoteEntry.json"
+  for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "https://banking-shell.netlify.app"
     Access-Control-Allow-Methods = "GET, OPTIONS"
